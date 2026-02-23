@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: Web App Development
 description: Frontend development guide for the Next.js application
 ---

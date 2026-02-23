@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 title: Progressive Lazy Loading Strategy
 description: Engineering rules for implementing sophisticated data fetching patterns
 keywords: [lazy loading, performance, fetching, pagination, infinite scroll]

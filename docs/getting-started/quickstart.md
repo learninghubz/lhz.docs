@@ -1,91 +1,79 @@
 ---
 sidebar_position: 1
 title: Quick Start
-description: Get started with LearningHubz
+description: Get started with Learning HubZ development
 ---
 
 # Quick Start Guide
 
-This guide will help you get started with LearningHubz quickly.
+Welcome to Learning HubZ! Get started with development in just a few minutes.
 
 ## Prerequisites
 
-Before you begin, ensure you have the following installed:
+Before you begin, ensure you have:
 
 - **Node.js** version 18.0 or above
 - **npm** or **yarn** package manager
 - **Git** for version control
+- Access to the [learninghubz2..0 repository](https://github.com/learninghubz/learninghubz2..0)
 
-## Local Development Setup
+## Choose Your Development Track
 
-### 1. Clone the Repository
+### 🎨 Frontend Development
+
+Working on UI, components, styling, or client-side features?
+
+**→ [Frontend Quick Start Guide](/docs/development/web-app/quickstart)**
+
+Perfect for:
+- React/Next.js developers
+- UI/UX implementation
+- Component development
+- Styling and theming
+
+### ⚙️ Backend Development
+
+Working on APIs, databases, or server-side logic?
+
+**→ [Backend Quick Start Guide](/docs/development/backend/quickstart)**
+
+Perfect for:
+- API development
+- Database operations (Cosmos DB)
+- Azure service integration
+- Authentication & authorization
+
+### 🚀 Full-Stack Development
+
+Working on both frontend and backend?
+
+1. Start with [Frontend Guide](/docs/development/web-app/quickstart) to run the application
+2. Then explore [Backend Guide](/docs/development/backend/quickstart) for API development
+
+## Quick Commands
 
 ```bash
+# Clone the repository
 git clone https://github.com/learninghubz/learninghubz2..0.git
 cd learninghubz2..0
-```
 
-### 2. Install Dependencies
-
-```bash
+# Install dependencies
 npm install
-# or
-yarn install
-```
 
-### 3. Configure Environment Variables
-
-Create a `.env.local` file in the root directory with the required environment variables:
-
-```bash
-# Azure Cosmos DB
-COSMOS_DB_ENDPOINT=your_cosmos_endpoint
-COSMOS_DB_KEY=your_cosmos_key
-
-# Azure Search
-AZURE_SEARCH_ENDPOINT=your_search_endpoint
-AZURE_SEARCH_KEY=your_search_key
-
-# Authentication
-NEXTAUTH_SECRET=your_nextauth_secret
-NEXTAUTH_URL=http://localhost:3000
-
-# SignalR
-SIGNALR_CONNECTION_STRING=your_signalr_connection
-```
-
-### 4. Run the Development Server
-
-```bash
+# Start development server
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+Open [http://localhost:3000](http://localhost:3000) to see your application running!
 
-## Project Structure
+## What's Next?
 
-```
-learninghubz2..0/
-├── app/                 # Next.js App Router
-│   ├── (authentication) # Auth routes
-│   ├── (main)          # Main app routes
-│   └── api/            # API routes
-├── components/         # React components
-├── lib/               # Utility libraries
-├── hooks/             # Custom React hooks
-├── services/          # API services
-└── types/             # TypeScript types
-```
-
-## Next Steps
-
-- [Architecture Overview](/docs/architecture/overview) - Learn about the system architecture
-- [API Reference](/docs/api-reference) - Explore the REST API
-- [Development Guidelines](/docs/development) - Follow our coding standards
+- **Development Guides** - Choose your [Frontend](/docs/development/web-app/quickstart) or [Backend](/docs/development/backend/quickstart) track
+- **Architecture** - Understand the [system architecture](/docs/architecture/overview)
+- **Contributing** - Learn how to [contribute documentation](./contributing.md)
 
 ## Need Help?
 
-- Check the [main repository](https://github.com/learninghubz/learninghubz2..0) for issues and discussions
-- Review the [full documentation](/docs/intro) for detailed guides
+- Browse the [full documentation](/docs/intro)
+- Check [GitHub issues](https://github.com/learninghubz/learninghubz2..0/issues)
+- Review [development best practices](/docs/development)
